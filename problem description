@@ -1,0 +1,13 @@
+The goal here is to create a small project that detects sentence boundaries in a text and return the list of sentences.
+Requirements:
+ - To achieve a reasonable accuracy, this should be done with at least some machine learning (ie a trained model)
+ - This project should be done in Python. Preferably Python 3 (if you decide to use Python 2, please justify this choice in a README)
+ - Try to keep your project easy to run. You should include a README file describing how to train your model and how to use it
+ - The final output when your project is running against a new text should be exactly one sentence per line.
+
+You can use any machine-learning library that might be useful, but don't use something that does the job directly…
+
+Bonus: The books we are using on Glose are formatted in HTML, and our reading interface eventually need to receive a specially amended HTML that contains the sentence boundaries: This HTML should be as close to the original book as possible, but each sentence should be wrapped in a <span> tag.
+How would you amend your project to handle/use this?
+You can either provide code for this, or write down some options in your README.
+
