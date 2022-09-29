@@ -105,7 +105,7 @@ the file *test_file-the_strange_case_of_dr_jekyll_and_mr_hyde.txt* is the book o
 The folder classifiers has inside the 10 classifiers trained for the 10-fold cross-validation. The folder evaluation hols the files with the metrics computed in the performance evaluation. The folder training_logs has a file per each trained classifier with some information I printed out to verify the process. Finally, the training_set folder keeps all the training sets I generated for the 10-fold cross-validation.
 
 # Further comments
-In the first tests I was only using the POS context features. I wanted to observe how good this lexic patterns were able to capture the sentence boundaries. I wasn't working so well. I decided to finally add the features to explicitely indicate the punctuations . ! ? and the uppercase one. I think those features are highly important and they probably almost "do the magic". A feature section test could help to clarify this. 
+In the first tests I was only using the POS context features. I wanted to observe how good this lexic patterns were able to capture the sentence boundaries. It wasn't working so well. I decided to finally add the features to explicitely indicate the punctuations . ! ? and the uppercase one. I think those features are highly important and they probably almost "do the magic". A feature section test could help to clarify this. 
 
 I personally believe that a rule-based algorithm would perform ok for this problem. A very simple machine learning approach like the one implemented here proved to be reasonably good. A more complex machine learning approach might certainly improve the performance even more.
 
